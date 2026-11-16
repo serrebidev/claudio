@@ -5,6 +5,12 @@ events from Claude Code, OpenAI Codex CLI, Gemini CLI, Qwen Code, and GitHub
 Copilot CLI, maps the event to a contextual sound, and plays that sound without
 making the agent wait for playback.
 
+[![Join SerrebiProjects on Telegram](https://img.shields.io/badge/Telegram-SerrebiProjects-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/SerrebiProjects)
+
+**Questions, bugs, or release news?** Join the [SerrebiProjects Telegram group](https://t.me/SerrebiProjects), the fastest place to get help.
+
+More serrebi projects: [projects.serrebiradio.com](https://projects.serrebiradio.com)
+
 It can play different sounds for tool starts, tool successes, tool failures,
 prompts, notifications, completions, compaction, session starts, and subagent
 events. Bash commands are parsed, so `git commit`, `npm test`, and `go build`
@@ -125,3 +131,7 @@ go test ./...
 The `Makefile` wraps the common workflows; run `make help` to list targets
 such as `make ci`, `make smoke`, and `make release-check`. Release notes live
 in [CHANGELOG.md](CHANGELOG.md).
+
+## Credits
+
+See [CREDITS.md](CREDITS.md) for where the ideas behind this project came from, and the third-party projects it builds on.
